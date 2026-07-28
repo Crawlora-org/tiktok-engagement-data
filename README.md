@@ -6,7 +6,7 @@ An open dataset of **TikTok engagement rates across 13 content niches**, measure
 
 Engagement rate = **(likes + comments + shares + saves) / views**, computed per video.
 
-📊 Interactive study & chart: **https://crawlora.net/tiktok-engagement-index**
+📊 Interactive study & chart: **[https://crawlora.net/tiktok-engagement-index](https://crawlora.net/tiktok-engagement-index?utm_source=github&utm_medium=referral&utm_campaign=tiktok-engagement-index)**
 
 ## Ranking (mean engagement rate by niche)
 
@@ -50,7 +50,7 @@ Engagement rate = **(likes + comments + shares + saves) / views**, computed per 
 
 ## Methodology
 
-For each niche we sampled TikTok videos via the [Crawlora TikTok API](https://crawlora.net/tiktok-engagement-index) (three search keywords per niche), kept those with **≥10,000 views**, deduplicated each video to count once, and computed the engagement rate per video. The per-niche figures are the mean and median of those rates. Snapshot: 2026-06-20.
+For each niche we sampled TikTok videos via the [Crawlora TikTok API](https://crawlora.net/tiktok-engagement-index?utm_source=github&utm_medium=referral&utm_campaign=tiktok-engagement-index) (three search keywords per niche), kept those with **≥10,000 views**, deduplicated each video to count once, and computed the engagement rate per video. The per-niche figures are the mean and median of those rates. Snapshot: 2026-06-20.
 
 **Caveats.** This is a sample of videos that **already perform** (search-surfaced, 10k+ views) — read it as a benchmark for content that gets traction, not a random slice of all of TikTok. Because **saves** count toward engagement, save-heavy niches (education, motivation) rank higher than a likes-only metric would.
 
@@ -58,8 +58,8 @@ For each niche we sampled TikTok videos via the [Crawlora TikTok API](https://cr
 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Free to use, including commercially, with attribution:
 
-> TikTok Engagement Index by Crawlora — https://crawlora.net/tiktok-engagement-index
+> TikTok Engagement Index by Crawlora — [https://crawlora.net/tiktok-engagement-index](https://crawlora.net/tiktok-engagement-index?utm_source=github&utm_medium=referral&utm_campaign=tiktok-engagement-index)
 
 ## How it was built
 
-Every number here came from Crawlora's TikTok endpoints (video search + stats). Pull the same data yourself, or explore the interactive study: **https://crawlora.net/tiktok-engagement-index**
+Every number here came from Crawlora's TikTok endpoints (video search + stats). Pull the same data yourself, or explore the interactive study: **[https://crawlora.net/tiktok-engagement-index](https://crawlora.net/tiktok-engagement-index?utm_source=github&utm_medium=referral&utm_campaign=tiktok-engagement-index)**
